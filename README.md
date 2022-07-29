@@ -4,11 +4,6 @@ tracker
 
 使用方法如下 The usage is as follows
 
-import Tracker from 'zmy-tracker'
-
-const tr = new Tracker({
-    requestUrl:"xxxxxx"
-})
 options 介绍 Options introduction
 
 /**
