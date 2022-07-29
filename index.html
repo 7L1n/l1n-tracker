@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./dist/index.js"></script>
+    <button target-key="'btn">按钮</button>
+    <button>无添加</button>
+    <script>
+        new tracker({
+            requestUrl: "http://localhost:9000/tracker",
+            historyTracker:true,
+            domTracker:true,
+            jsError:true
+        })
+    </script>
+</body>
+</html>
